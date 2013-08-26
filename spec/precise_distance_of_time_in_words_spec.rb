@@ -1,5 +1,4 @@
 require 'spec_helper'
-include PreciseDistanceOfTimeInWords
 
 describe PreciseDistanceOfTimeInWords do
   context 'Distance of Time in Hours and Minutes' do

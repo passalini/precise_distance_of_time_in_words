@@ -27,3 +27,5 @@ module PreciseDistanceOfTimeInWords
     words << ' and ' if (time_1 > 0 && time_2 > 0)
   end
 end
+
+include PreciseDistanceOfTimeInWords
