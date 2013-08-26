@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem offers to you a method called "precise_distance_of_time_in_words(from, to)"
+To you user it just puts that method in where you want (console, view, model) with the times.
+For exemple:
+precise_distance_of_time_in_words(0, 1) #return '1 second'
+precise_distance_of_time_in_words(Time.now, Time.now + 1.hour + 1.minute) #return '1 hour and 1 minute'
 
 ## Contributing
 
