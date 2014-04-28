@@ -21,7 +21,7 @@ module PreciseDistanceOfTimeInWords
 
     words = ''
 
-    I18n.with_options locale: options[:locale], scope: options[:scope] do |locale|
+    I18n.with_options( locale: options[:locale], scope: options[:scope] ) do |locale|
       words << locale.t(:x_hours, count: hours) if hours > 0
       words << " #{locale.t(:and)} " if (hours > 0 && minutes > 0) # add_and_between?
       words << locale.t(:x_minutes, count: minutes) if minutes > 0
