@@ -42,6 +42,7 @@ internationalized application. Keys and the default values are the following.
 You can override them by adding to a YAML file in your <tt>Rails.root/config/locales</tt>
 directory.
 
+``` yml
   en:
     datetime:
       precise_distance_in_words:
@@ -55,7 +56,7 @@ directory.
           one: '%{count} hour'
           other: '%{count} hours'
         and: and
-
+```
 
 ## Contributing
 
