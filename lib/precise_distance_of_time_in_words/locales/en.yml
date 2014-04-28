@@ -1,0 +1,13 @@
+en:
+  datetime:
+    precise_distance_in_words:
+      x_minutes:
+        one: ! '%{count} minute'
+        other: ! '%{count} minutes'
+      x_seconds:
+        one: ! '%{count} second'
+        other: ! '%{count} seconds'
+      x_hours:
+        one: ! '%{count} hour'
+        other: ! '%{count} hours'
+      and: and
