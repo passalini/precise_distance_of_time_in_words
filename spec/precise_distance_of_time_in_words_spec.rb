@@ -20,6 +20,7 @@ describe PreciseDistanceOfTimeInWords do
       precise_distance_of_time_in_words(@time1, @time5).should == '1 hour and 5 minutes'
       precise_distance_of_time_in_words(@time1, @time6).should == '1 hour and 5 minutes'
     end
+
     it 'support other languages' do
       precise_distance_of_time_in_words(2.second, 0, locale: :de).should == '2 Sekunden'
     end
